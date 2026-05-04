@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Dark navy rounded-square background -->
+  <rect width="512" height="512" rx="96" fill="#0d0d1a"/>
+
+  <!-- Shield — teal outer fill -->
+  <path d="M256 52 L428 122 L428 280
+           C428 372 348 438 256 468
+           C164 438 84 372 84 280 L84 122 Z"
+        fill="#4fd1c5"/>
+
+  <!-- Shield — dark inner cutout (vault interior) -->
+  <path d="M256 98 L388 160 L388 278
+           C388 352 328 410 256 436
+           C184 410 124 352 124 278 L124 160 Z"
+        fill="#131328"/>
+
+  <!-- Lock shackle (arch above body) -->
+  <path d="M210 266 L210 220
+           C210 178 302 178 302 220 L302 266"
+        fill="none" stroke="#4fd1c5" stroke-width="26"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lock body -->
+  <rect x="190" y="266" width="132" height="110" rx="16" fill="#4fd1c5"/>
+
+  <!-- Keyhole circle -->
+  <circle cx="256" cy="308" r="22" fill="#131328"/>
+  <!-- Keyhole slot -->
+  <rect x="247" y="308" width="18" height="34" rx="5" fill="#131328"/>
+
+  <!-- Small circular countdown arc — top-right of shield, referencing the UI -->
+  <circle cx="352" cy="160" r="40" fill="#0d0d1a" stroke="#37374b" stroke-width="7"/>
+  <!-- ~75% filled arc, clockwise from 12 o'clock -->
+  <path d="M352 122 A38 38 0 1 1 315 178"
+        fill="none" stroke="#4fd1c5" stroke-width="7" stroke-linecap="round"/>
+  <!-- Clock hands -->
+  <line x1="352" y1="160" x2="352" y2="131" stroke="#4fd1c5" stroke-width="5" stroke-linecap="round"/>
+  <line x1="352" y1="160" x2="372" y2="170" stroke="#4fd1c5" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="352" cy="160" r="5" fill="#4fd1c5"/>
+</svg>

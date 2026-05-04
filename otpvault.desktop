@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=OTPVault
+GenericName=Authenticator
+Comment=Offline TOTP authenticator — keeps 2FA codes encrypted and off the network
+Exec=otpvault
+Icon=otpvault
+Terminal=false
+Categories=Utility;Security;
+Keywords=totp;otp;2fa;mfa;authenticator;
+StartupNotify=true
+StartupWMClass=otpvault
